@@ -37,16 +37,16 @@ Section --- Managing Services
 
 -- Stopping Services --
 
-  `sc query Spooler` --> Querying the Print Spooler service
+  >sc query Spooler --> Querying the Print Spooler service
 
-  `sc stop Spooler` 
+  >sc stop Spooler 
 
 
 -- Starting Services --
 
-  `sc start Spooler`  
+  >sc start Spooler  
 
 
 -- Modifying Services --
 
-  `sc query windefend`
+  >sc query windefend
