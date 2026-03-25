@@ -13,16 +13,40 @@ Section --- Managing Services
 
 -- SERVICE CONTROLLER --
 
-Query, modify and manage host services locally and over the network.
+  Query, modify and manage host services locally and over the network.
 
-> sc --> Description of the command "SC is a command line program used for communicating with the Service Control Manager and services."
+  > sc --> Description of the command "SC is a command line program used for communicating with the Service Control Manager and services."
 
 
 -- QUERY SERVICES --
 
-Get information such as the process state, process id (pid), and service type.
+  Get information such as the process state, process id (pid), and service type.
 
-> sc query type= service --> List all services are currently actively running on the system
-(Respect the sparce)
+  > sc query type= service --> List all services are currently actively running on the system
+  (Respect the sparce)
+
+  > sc query windefend --> Querying for Windows Defender
+
+  > sc stop windefend --> Trying to stopping the service Windows Defender 
+  (sc stop <service name>)
+
+  This service is protected under stricter access requierement than what local administratos accounts have.
+
+  The only thing that can stop and start the Defender service is the SYSTEM machine account.
 
 
+-- Stopping Services --
+
+  >sc query Spooler --> Querying the Print Spooler service
+
+  >sc stop Spooler --> 
+
+
+-- Starting Services --
+
+  >sc start Spooler --> 
+
+
+-- Modifying Services --
+
+  
