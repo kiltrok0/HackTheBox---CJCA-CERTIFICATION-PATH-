@@ -22,3 +22,7 @@ Query, modify and manage host services locally and over the network.
 
 Get information such as the process state, process id (pid), and service type.
 
+> sc query type= service --> List all services are currently actively running on the system
+(Respect the sparce)
+
+
