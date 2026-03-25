@@ -1,0 +1,24 @@
+We will start on the section Managing Services, the sections before this one will not be deployed by the moment... this is the starting point.
+
+Section --- Managing Services
+
+  We will see the usage of sc, the Windows Command Line Service controler utility.
+
+  As an attacker we need to:
+
+  - Determine what services are running
+  - Attempt to disable antivirus
+  - Modify existing services on a system
+
+
+-- SERVICE CONTROLLER --
+
+Query, modify and manage host services locally and over the network.
+
+> sc --> Description of the command "SC is a command line program used for communicating with the Service Control Manager and services."
+
+
+-- QUERY SERVICES --
+
+Get information such as the process state, process id (pid), and service type.
+

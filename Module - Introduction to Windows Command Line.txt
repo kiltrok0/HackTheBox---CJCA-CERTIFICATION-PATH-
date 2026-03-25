@@ -1,3 +1,0 @@
-We will start on the section Managing Services, the sections before this one will not be deployed by the moment... this is the starting point.
-
-Section -- Managing Services
